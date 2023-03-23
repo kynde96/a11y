@@ -35,7 +35,7 @@
   color: white;
   padding-top: 2em;
   padding-bottom: 2em;
-  padding-left: 2em;
+  padding-left: 4em;
 }
 
 .infosection {
@@ -44,4 +44,52 @@
 
 h1 {
   font-size: 70%;
+}
+
+.btn-infotekst {
+  background-color: #55524c;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  width: 100%;
+  margin-top: 1em;
+
+  text-align: left;
+  border: none;
+}
+
+.btn-infoknap {
+  background-color: #878581;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  width: 100%;
+  margin-top: 1em;
+
+  text-align: left;
+  border: none;
+}
+
+.btn-infoknap2 {
+  background-color: #878581;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  width: 75%;
+  margin-top: 1em;
+
+  text-align: left;
+  border: none;
+}
+
+.infotekst {
+  width: 100%;
+  border: none;
+}
+
+.tabel {
+  width: 60%;
 }
