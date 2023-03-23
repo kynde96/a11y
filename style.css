@@ -11,6 +11,7 @@
 .navbar a {
   color: white;
   letter-spacing: 0.8px;
+  font-size: 1.3em;
 }
 
 .navbar a:hover {
@@ -19,13 +20,37 @@
 
 .logo-eamv {
   background-color: #55524c;
-  padding-top: 2em;
-  padding-left: 2em;
+  padding-top: 3em;
+  padding-left: 4em;
   padding-bottom: 1em;
+}
+
+.navimg {
+  padding-left: 2.5em;
+  padding-top: 2em;
 }
 
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+footer {
+  background-color: #55524c;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  line-height: 2em;
+}
+
+footer a:hover {
+  color: #f49800;
+}
+
+li {
+  list-style: none;
 }
 
 /* -----------------------------Info---------------------------------------- */
@@ -67,9 +92,12 @@ h1 {
   padding-left: 2em;
   width: 100%;
   margin-top: 1em;
-
   text-align: left;
   border: none;
+}
+
+.btn-infoknap:hover {
+  background-color: #f49800;
 }
 
 .btn-infoknap2 {
@@ -85,11 +113,43 @@ h1 {
   border: none;
 }
 
+.btn-infoknap2:hover {
+  background-color: #f49800;
+}
+
 .infotekst {
   width: 100%;
   border: none;
 }
 
+h4 {
+  padding-top: 20px;
+}
+
 .tabel {
-  width: 60%;
+  width: 35em;
+  table-layout: fixed;
+}
+
+.ikon {
+  float: right;
+  margin-right: 1em;
+}
+
+.some {
+  margin: 0.5em;
+}
+
+.navbar-nav > li {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.underoverskriften {
+  font-size: 120%;
+}
+
+.broedkrumme {
+  margin-top: 1.5em;
+  padding-left: 5.5em;
 }
